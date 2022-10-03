@@ -1,4 +1,4 @@
-# [ACTIVE]
+# [DEPRECIATED]
 
 ## Server Configuration 
 
