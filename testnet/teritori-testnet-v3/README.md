@@ -3,10 +3,10 @@
 ## Server Configuration 
 
 Here is the configuration of the server we are using:
-- No. of CPUs: 8
-- Memory: 16GB
-- Disk: 80GB SSD
-- OS: Ubuntu 20.04 LTS
+- No. of CPUs: 16
+- Memory: 32GB
+- Disk: 500GB SSD
+- OS: Ubuntu 22.04 LTS
 
 Allow all incoming connections from TCP port 26656 and 26657
 
