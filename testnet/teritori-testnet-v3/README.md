@@ -12,7 +12,7 @@ Allow all incoming connections from TCP port 26656 and 26657
 
 Notes on the configurations.
 1. Multicore is important, regardless the less CPU time usage
-2. teritorid uses less than 1GB memory and 2GB should be enough for now.
+2. teritorid uses less than 32GB memory and 32GB should be enough for now for upgrades.
 Once your new server is running, login to the server and upgrade your packages.
 
 
