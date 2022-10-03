@@ -14,12 +14,12 @@ Allow all incoming connections from TCP port 26656 and 26657
 Notes on the configurations.
 
 1. Multicore is important, regardless the less CPU time usage
-2. teritorid uses less than 1GB memory and 2GB should be enough for now.
+2. teritorid uses less than 16GB memory and 32GB should be enough for now for upgrades.
    Once your new server is running, login to the server and upgrade your packages.
 
 ## Setup your machine
 
-If you already have go 1.18+ and packages up to date, you can skip this part and jump to the second section: [Setup the chain](#setup-the-chain)  
+If you already have go 1.19+ and packages up to date, you can skip this part and jump to the second section: [Setup the chain](#setup-the-chain)  
 Make sure your machine is up to date:
 
 ```shell
@@ -32,7 +32,7 @@ Install few packages:
 apt install build-essential git curl gcc make jq -y
 ```
 
-Install Go 1.18+:
+Install Go 1.19+:
 
 ```shell
 wget -c https://go.dev/dl/go1.19.1.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz && rm -rf go1.19.1.linux-amd64.tar.gz
